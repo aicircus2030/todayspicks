@@ -5,25 +5,23 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Contact - TODAY’S PICKS</title>
 
-  <!-- ✅ GitHub Pages project base -->
-  <base href="/todayspicks/">
-
-  <link rel="stylesheet" href="assets/style.css">
+  <!-- ✅ IMPORTANT: contact.html is inside /pages/, so use ../ -->
+  <link rel="stylesheet" href="../assets/style.css">
 </head>
 
 <body>
 <header class="site-header">
   <div class="wrap">
     <div class="brand">
-      <a href="./" class="logo">TODAY’S PICKS</a>
+      <a href="../index.html" class="logo">TODAY’S PICKS</a>
       <div class="tag">Contact</div>
     </div>
 
     <nav class="nav">
-      <a href="./">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="pages/about.html">About</a>
-      <a class="active" href="pages/contact.html">Contact</a>
+      <a href="../index.html">Home</a>
+      <a href="../blog.html">Blog</a>
+      <a href="./about.html">About</a>
+      <a class="active" href="./contact.html">Contact</a>
     </nav>
   </div>
 </header>
@@ -34,21 +32,23 @@
     <p class="muted">Questions or partnerships? Reach out anytime.</p>
   </section>
 
-  <div class="card">
+  <article class="card">
     <div class="inner">
-      <p>Email: <strong>aicircus.help@gmail.com</strong></p>
-      <p class="muted">Tip: If you want a form without a backend, you can use Formspree later.</p>
+      <p><strong>Email:</strong> your@email.com</p>
+      <p class="muted">Replace this email with your preferred contact.</p>
     </div>
-  </div>
+  </article>
 
   <section class="footer-links">
-    <a href="pages/privacy.html">Privacy Policy</a>
-    <a href="pages/disclaimer.html">Disclaimer</a>
-    <a href="pages/terms.html">Terms</a>
+    <a href="./privacy.html">Privacy Policy</a>
+    <a href="./disclaimer.html">Disclaimer</a>
+    <a href="./terms.html">Terms</a>
     <span class="muted">© <span id="year"></span> TODAY’S PICKS</span>
   </section>
 </main>
 
-<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
