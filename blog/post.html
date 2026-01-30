@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}" />
+  <link rel="stylesheet" href="/assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <a href="/" class="logo">TODAY’S PICKS</a>
+        <div class="tag">KDP notes, templates, and practical publishing tips.</div>
+      </div>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a class="active" href="/blog/">Blog</a>
+        <a href="/pages/about.html">About</a>
+        <a href="/pages/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <article class="card" style="margin:18px 0;">
+      <div class="inner">
+        <span class="badge">{{CATEGORY}}</span>
+        <h1 style="margin:10px 0 8px; font-size:28px; line-height:1.25;">{{H1}}</h1>
+        <div class="muted" style="font-size:13px; margin-bottom:14px;">
+          <span>{{DATE}}</span> · <a href="/blog/">Back to Blog</a>
+        </div>
+        <div class="muted" style="line-height:1.75; font-size:15px; color: var(--text); opacity:.92;">
+          {{CONTENT}}
+        </div>
+      </div>
+    </article>
+
+    <section class="footer-links">
+      <a href="/pages/privacy.html">Privacy Policy</a>
+      <a href="/pages/disclaimer.html">Disclaimer</a>
+      <a href="/pages/terms.html">Terms</a>
+      <span class="muted">© <span id="year"></span> TODAY’S PICKS</span>
+    </section>
+  </main>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
