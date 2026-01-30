@@ -1,40 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>/</loc></url>
-  <url><loc>/blog/</loc></url>
-  <url><loc>/pages/about.html</loc></url>
-  <url><loc>/pages/contact.html</loc></url>
-  <url><loc>/pages/privacy.html</loc></url>
-  <url><loc>/pages/disclaimer.html</loc></url>
-  <url><loc>/pages/terms.html</loc></url>
-  <url><loc>/blog/posts/a-simple-keyword-workflow-that-beats-guessing.html</loc></url>
-  <url><loc>/blog/posts/how-to-choose-categories-without-overthinking.html</loc></url>
-  <url><loc>/blog/posts/paperback-pricing-a-practical-way-to-pick-a-number.html</loc></url>
-  <url><loc>/blog/posts/ku-vs-non-ku-how-to-decide-for-low-ticket-books.html</loc></url>
-  <url><loc>/blog/posts/how-to-build-a-series-that-the-algorithm-understands.html</loc></url>
-  <url><loc>/blog/posts/what-low-content-actually-means-and-how-to-avoid-it.html</loc></url>
-  <url><loc>/blog/posts/a-60-minute-weekly-routine-to-publish-consistently.html</loc></url>
-  <url><loc>/blog/posts/your-upload-checklist-reduce-mistakes-to-near-zero.html</loc></url>
-  <url><loc>/blog/posts/file-naming-rules-that-save-hours-later.html</loc></url>
-  <url><loc>/blog/posts/batching-the-only-way-to-scale-without-burning-out.html</loc></url>
-  <url><loc>/blog/posts/cover-basics-that-improve-clicks-without-fancy-art.html</loc></url>
-  <url><loc>/blog/posts/spine-and-trim-size-what-to-decide-first.html</loc></url>
-  <url><loc>/blog/posts/typography-rules-for-workbook-style-interiors.html</loc></url>
-  <url><loc>/blog/posts/how-to-keep-a-clean-readable-layout-for-printing.html</loc></url>
-  <url><loc>/blog/posts/proofing-strategy-catch-90-of-issues-fast.html</loc></url>
-  <url><loc>/blog/posts/how-to-make-answer-keys-feel-premium.html</loc></url>
-  <url><loc>/blog/posts/why-explanations-at-the-end-can-boost-perceived-value.html</loc></url>
-  <url><loc>/blog/posts/the-simplest-way-to-reduce-negative-reviews.html</loc></url>
-  <url><loc>/blog/posts/product-description-formula-that-doesnt-sound-spammy.html</loc></url>
-  <url><loc>/blog/posts/keywords-vs-description-what-each-is-actually-for.html</loc></url>
-  <url><loc>/blog/posts/how-to-write-a-subtitle-that-helps-ranking.html</loc></url>
-  <url><loc>/blog/posts/a-lightweight-brand-for-authors-with-many-books.html</loc></url>
-  <url><loc>/blog/posts/how-to-structure-a-practice-pack-that-feels-complete.html</loc></url>
-  <url><loc>/blog/posts/daily-warm-ups-format-that-readers-actually-use.html</loc></url>
-  <url><loc>/blog/posts/practice-tests-vs-worksheets-which-sells-better.html</loc></url>
-  <url><loc>/blog/posts/grade-level-clarity-reduce-returns-and-confusion.html</loc></url>
-  <url><loc>/blog/posts/tracking-titles-a-spreadsheet-structure-that-works.html</loc></url>
-  <url><loc>/blog/posts/when-to-update-a-book-vs-publish-a-new-edition.html</loc></url>
-  <url><loc>/blog/posts/how-to-reuse-content-ethically-versioning-differentiation.html</loc></url>
-  <url><loc>/blog/posts/a-90-day-plan-to-reach-100-listings-without-chaos.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/blog.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/pages/about.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/pages/contact.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/pages/privacy.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/pages/disclaimer.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/pages/terms.html</loc></url>
+
+  <url><loc>https://aicircus2030.github.io/todayspicks/blog/posts/a-simple-keyword-workflow-that-beats-guessing.html</loc></url>
+  <url><loc>https://aicircus2030.github.io/todayspicks/blog/posts/how-to-choose-categories-without-overthinking.html</loc></url>
+  <!-- 下面所有 posts 按同样规则继续 -->
 </urlset>

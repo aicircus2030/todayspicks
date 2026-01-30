@@ -5,9 +5,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Blog - TODAY’S PICKS</title>
   <meta name="description" content="Publishing, KDP automation, and productivity notes." />
-  <link rel="stylesheet" href="../assets/style.css" />
 
-  <!-- ✅ AdSense: Site-wide script (ONLY ONCE PER PAGE, keep in <head>) -->
+  <!-- ✅ GitHub Pages project base -->
+  <base href="/todayspicks/">
+
+  <link rel="stylesheet" href="assets/style.css" />
+
+  <!-- ✅ AdSense: Site-wide script -->
   <script async
     src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6431287128699475"
     crossorigin="anonymous"></script>
@@ -17,15 +21,15 @@
   <header class="site-header">
     <div class="wrap">
       <div class="brand">
-        <a href="/" class="logo">TODAY’S PICKS</a>
+        <a href="./" class="logo">TODAY’S PICKS</a>
         <div class="tag">KDP notes, automation, and practical publishing tips.</div>
       </div>
 
       <nav class="nav">
-        <a href="/">Home</a>
-        <a class="active" href="/blog/">Blog</a>
-        <a href="/pages/about.html">About</a>
-        <a href="/pages/contact.html">Contact</a>
+        <a href="./">Home</a>
+        <a class="active" href="blog.html">Blog</a>
+        <a href="pages/about.html">About</a>
+        <a href="pages/contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -33,50 +37,43 @@
   <main class="wrap">
     <section class="hero">
       <h1>Blog</h1>
-     <p class="muted">Browse the latest tips, templates, and publishing workflows.</p>
-
+      <p class="muted">No fluff — just practical KDP publishing tactics and automation tips.</p>
     </section>
 
-    <!-- ✅ BLOG TOP Ad Unit -->
+    <!-- BLOG TOP Ad Unit (replace slot when you have it) -->
     <section class="ad">
-      <!-- IMPORTANT: replace data-ad-slot with your real Ad Unit slot ID -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-6431287128699475"
            data-ad-slot="3333333333"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </section>
 
     <section>
       <div class="grid" id="cards"></div>
     </section>
 
-    <!-- ✅ BLOG BOTTOM Ad Unit -->
+    <!-- BLOG BOTTOM Ad Unit (replace slot when you have it) -->
     <section class="ad">
-      <!-- IMPORTANT: replace data-ad-slot with your real Ad Unit slot ID -->
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-6431287128699475"
            data-ad-slot="4444444444"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
-      <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
     </section>
 
     <section class="footer-links">
-      <a href="/pages/privacy.html">Privacy Policy</a>
-      <a href="/pages/disclaimer.html">Disclaimer</a>
-      <a href="/pages/terms.html">Terms</a>
+      <a href="pages/privacy.html">Privacy Policy</a>
+      <a href="pages/disclaimer.html">Disclaimer</a>
+      <a href="pages/terms.html">Terms</a>
       <span class="muted">© <span id="year"></span> TODAY’S PICKS</span>
     </section>
   </main>
 
-  <script src="../assets/main.js"></script>
+  <script src="assets/main.js"></script>
 </body>
 </html>
